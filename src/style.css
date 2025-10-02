@@ -1,5 +1,38 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;           
+  margin: 0;                
+  background-color: #9ACD32; 
+}
+
+#carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px; 
+}
+
+.arriba{
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+#numero{
+  text-align: center;
+  justify-content: center;
+}
+
+.abajo{
+  font-size: 1.5rem;
+  justify-content: flex-end;
 }
